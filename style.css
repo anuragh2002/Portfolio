@@ -202,7 +202,6 @@ li {
     width: 40px;
     height: 4px;
     border-radius: 25px;
-    transition: all 0.3s;
   }
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
@@ -231,6 +230,5 @@ li {
     transition: all 0.3s;
     z-index: 1111;
     background-color: #f3f5f8;
-    transition: 0.3s;
   }
 }
