@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/73ba6c97c2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Anuragh's Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navbar-->
+      <nav>
+        <div class="logo">AB</div>
+
+        <div class="navMenu">
+          <ul class="navItems">
+            <li><a class="nav-link" href="#">Home</a></li>
+            <li><a class="nav-link" href="#">Skills</a></li>
+            <li><a class="nav-link" href="#">About</a></li>
+            <li><a class="nav-link" href="#">Blog</a></li>
+          </ul>
+
+          <ul class="links">
+            <a class="nav-link" href="#"><i class="fab fa-linkedin"></i></a>
+            <a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
+            <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+          </ul>
+        </div>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+
+      <!-- Wrapper -->
+      <div class="wrapper">
+        <div class="cols cols0">
+          <span class="topline">Hello</span>
+          <h1><b>I</b>'m <span class="multiText"></span></h1>
+          <p>
+            A final year undergrad pursuing BTech in CSE who also identifies as
+            a part time technical writer. I can efficiently build awesome
+            websites, write clean code in Java, curate SEO friendly articles or
+            blogs posts that attract traffic to your website.
+          </p>
+          <div class="btns">
+            <button>Download my CV</button>
+            <button>Hire Me</button>
+          </div>
+        </div>
+        <!-- <div class="cols cols1">
+          <div class="imgbox">
+            <img src="splash.png" id="splash" />
+            <img src="pfp.png" id="user" />
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".multiText", {
+        strings: ["Coder", "Blogger", "Copywriter", "Developer"],
+        // loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1500,
+      });
+    </script>
+  </body>
+</html>
